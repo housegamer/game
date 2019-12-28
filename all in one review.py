@@ -38,7 +38,7 @@ def win(current_game):
 			check.append(row[col])
 
 		if all_same(check):
-			print(f'winner {diags[0]} is the winner vertically (|)')
+			print(f'winner {check[0]} is the winner vertically (|)')
 			return True
 	return False
 
@@ -117,3 +117,5 @@ def game_board(player=0,row=0, column=0, just_dislapy=False):
 
 game_board(game)
 print(game)'''
+
+
